@@ -9,6 +9,7 @@ import Footer from './Footer'
 import Test from './Test'
 import TestA from './TestA'
 import Horloge from './Horloge'
+import Incremente from './Incremente'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <div>
       <TestA name="Jean">Bonjour tout le monde</TestA>
       <Horloge />
+      <Incremente start={10} />
     </div>
   )
 
