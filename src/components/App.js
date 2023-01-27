@@ -7,11 +7,17 @@ import ShoppingList from './ShoppingList'
 // import QuestionForm from './QuestionForm'
 import Footer from './Footer'
 import Test from './Test'
+import TestA from './TestA'
+import Horloge from './Horloge'
 
 function App() {
 
   return (
-    <Test />
+    // <Test />
+    <div>
+      <TestA name="Jean">Bonjour tout le monde</TestA>
+      <Horloge />
+    </div>
   )
 
 
