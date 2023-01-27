@@ -10,15 +10,18 @@ import Test from './Test'
 import TestA from './TestA'
 import Horloge from './Horloge'
 import Incremente from './Incremente'
+import Formulaire from './Formulaire'
 
 function App() {
 
   return (
     // <Test />
     <div>
-      <TestA name="Jean">Bonjour tout le monde</TestA>
+      <TestA name="Jean" name2="Gaia">Bonjour tout le monde</TestA>
       <Horloge />
       <Incremente start={10} />
+      <Incremente start={100} step={10}/>
+      <Formulaire />
     </div>
   )
 
