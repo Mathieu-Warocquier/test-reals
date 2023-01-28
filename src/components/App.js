@@ -11,6 +11,7 @@ import TestA from './TestA'
 import Horloge from './Horloge'
 import Incremente from './Incremente'
 import Formulaire from './Formulaire'
+import Comp from './Comp'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Incremente start={10} />
       <Incremente start={100} step={10}/>
       <Formulaire />
+      <Comp name="Gaia" name2="Maud"> Hey </Comp>
     </div>
   )
 
